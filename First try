@@ -1,0 +1,35 @@
+list1 = [1, 1, 2]
+list2 = [5, 5, 5]
+print("list1:", list1)
+print("list2:", list2)
+set1 = set(list1)
+Countd1 = len(set1)
+list1D = list(dict.fromkeys(list1))
+list2D = list(dict.fromkeys(list2))
+
+counter = 4
+
+for x in list1D:
+    if counter == 0:
+        break
+    else:
+        list2.append(x)
+        list2D = list(dict.fromkeys(list2))
+        list1.remove(x)
+        list1D = list(dict.fromkeys(list1))
+        print("====")
+        print("list1:", list1)
+        print("list2:", list2)
+        counter = counter - 1
+        for x in list2D:
+            if counter == 0:
+                break
+            else:
+                print("========")
+                list1.append(x)
+                print("list1:", list1)
+                list2.remove(x)
+                print("list2:", list2)
+                counter = counter - 1
+
+        
