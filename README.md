@@ -1,4 +1,4 @@
-# Back-and-forth
+# USACO-Back-and-forth
 Farmer John has two milking barns, each of which has a large milk tank as well as a storage closet containing 10 buckets of various sizes. He likes to carry milk back and forth between the two barns as a means of exercise.  
 On Monday, Farmer John measures exactly 1000 gallons of milk in the tank of the first barn, and exactly 1000 gallons of milk in the tank of the second barn.
   
