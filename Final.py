@@ -7,7 +7,7 @@ def move(list1, list2, n, actions):
         tank = 1000
         for a in actions:
             tank = tank + a
-            answer.append(tank)
+        answer.append(tank)
     else:
         list1D = list(dict.fromkeys(list1))
         for x in list1D:
