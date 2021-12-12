@@ -1,0 +1,10 @@
+A recursive function is the most straight forward way to solve this problem.
+I used a DFS function to list out all the possible values of tank 1.
+Then I put all the values of tank 1 into a set to rule out all the duplicate values.
+Lastly, I counted the nuber of values in the set and printed out the number.
+
+The Depth-First-Search(DFS) algorithm is a recursive algorithm.
+It goes ahead and exhausitvly searches every possible nodes first, and then backtracks one level to find other possible nodes.
+
+What was wrong with the old code was the fact that after the code ran for a while, it would deplete the list from list 1 and an error would occur.
+What the code was missing was the fact that I didn't put the numbers back to the list when it moved on to the next possibility.
